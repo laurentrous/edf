@@ -4,9 +4,8 @@
     <title id="pageTitle">Index</title>
 </head>
 <body>
-<header>
+<header class="fixed-top">
     <img th:src="@{/img/logo.jpg}" class="logo">
-</header>
     <nav class="nav nav-pills flex-column flex-sm-row">
         <a class="flex-sm-fill text-sm-center nav-link active" href="hydrogene">Hydrogène</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="projet">Le projet</a>
@@ -14,6 +13,7 @@
         <a class="flex-sm-fill text-sm-center nav-link" href="articles" tabindex="-1">Articles</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="questionnaire" tabindex="-1">Questionnaire</a>
     </nav>
+</header>
 <main class="divimgindex"></main>
 <div th:include="fragment-script"></div>
 <footer>
