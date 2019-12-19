@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragment-header">
+    <title id="pageTitle">Index</title>
 </head>
 <body>
-Bonjour
+<header>
+    <img th:src="@{/img/logo.jpg}" class="logo">
+    <img th:src="@{/img/indeximg.jpg}" class="img-fluid">
+    <h1>Titre</h1>
+    <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+</header>
+<div th:include="fragment-script"></div>
 </body>
 </html>
