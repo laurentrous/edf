@@ -18,7 +18,7 @@
     width: 150px;
 }
 
-.text{
+.text-marie{
     text-align: center;
 }
 
@@ -26,7 +26,13 @@
     background-image: url("/img/pageaccueilnew.png");
     height: 3500px;
     width: 100%;
-    background-size:     contain;
-    background-repeat:   no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: top center;
+}
+
+.footer{
+    background-color: #003399;
+    color : #FFFFFF;
+    padding : 20px 0px;
 }
