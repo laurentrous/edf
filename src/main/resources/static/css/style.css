@@ -51,6 +51,22 @@ header{
     background-position: top center;
 }
 
+.divimgenventete {
+    background-image: url("/img/entetehydroandenv.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimgenvmain {
+    background-image: url("/img/hydroandenvmain.jpg");
+    height: 1850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 .footer{
     background-color: #003399;
     color : #FFFFFF;

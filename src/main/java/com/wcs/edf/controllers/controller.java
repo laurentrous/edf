@@ -31,6 +31,11 @@ public class controller {
         return "hydrogene";
     }
 
+    @GetMapping("/hydrogene-environnement")
+    public String hydroEnv() {
+        return "hydro-environnement";
+    }
+
     @GetMapping("/questionnaire")
     public String question() {
         return "questionnaire";
