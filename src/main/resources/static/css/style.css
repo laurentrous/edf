@@ -1,7 +1,23 @@
-* {
+*, body {
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
     width: 300px;
+}
+
+.h1templates {
+    border: 1px solid;
+    height: 150px;
+}
+
+.mascotte {
+    width: 150px;
+}
+
+.text{
+    text-align: center;
 }
