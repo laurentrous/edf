@@ -21,3 +21,12 @@
 .text{
     text-align: center;
 }
+
+.divimgindex {
+    background-image: url("/img/pageaccueilnew.png");
+    height: 3500px;
+    width: 100%;
+    background-size:     contain;
+    background-repeat:   no-repeat;
+    background-position: top center;
+}
