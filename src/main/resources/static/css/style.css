@@ -34,6 +34,23 @@ header{
     background-position: top center;
 }
 
+.divimghydroent {
+    background-image: url("/img/entetehydro.png");
+    height: 580px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimghydromain {
+    background-image: url("/img/hydro.png");
+    margin-top:-1px;
+    height: 2150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 .footer{
     background-color: #003399;
     color : #FFFFFF;
