@@ -15,36 +15,24 @@
     </nav>
     <img th:src="@{/img/indeximg.jpg}" class="img-fluid">
 </header>
-<div>
+<div th:if="${!check}">
+    <form class="text-center" method="post" th:action="@{/send}">
+        <div th:each="Question : ${questions}" >
+            <img class="title-question" src="img/mascotte.png">
+        <h3 class="title-question" th:text="${Question.quest}">  CSS Stands for...</h3>
     <ul>
-<li>
-
-    <h3>CSS Stands for...</h3>
-
-    <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-    </div>
-
-    <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-    </div>
-
-    <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-    </div>
-
-    <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-        <label for="question-1-answers-D">D) None of the above</label>
-    </div>
-</li>
+        <li th:each="Answer, index : ${Question.answers}">
+            <input type="radio" th:name="|answer${Question.id}|" th:id="${Question.id}" th:value="${Answer.id}" required />
+            <label th:for="${Question.id}" th:text=" |${index.index+1}) ${Answer.possible}|">A) Computer Styled Sections </label>
+        </li>
     </ul>
+        </div>
+        <input type="submit" value="envoyer">
+    </form>
 </div>
-
-</li>
-<div th:include="fragment-script"></div>
+<div th:if="${check}">
+    <div class="score" th:text="|Bravo votre score est de : ${score} /5|"></div>
+    <div th:include="fragment-script"></div>
+</div>
 </body>
 </html>

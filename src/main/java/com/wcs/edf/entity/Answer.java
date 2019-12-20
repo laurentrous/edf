@@ -12,6 +12,7 @@ public class Answer {
 
 
     private Boolean correct;
+    private String possible;
 
     @ManyToOne
     @JoinColumn(name = "question_id")
@@ -34,6 +35,14 @@ public class Answer {
 
     public void setCorrect(Boolean correct) {
         this.correct = correct;
+    }
+
+    public String getPossible() {
+        return possible;
+    }
+
+    public void setPossible(String possible) {
+        this.possible = possible;
     }
 
     public Question getQuestion() {
