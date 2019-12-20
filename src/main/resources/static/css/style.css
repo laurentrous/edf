@@ -132,7 +132,7 @@ h3 {
     margin-left: -503px;
 }
 
-.btn {
+.btn-marie {
     margin-top: 123px;
     margin-left: 1318px;
     color: black;
@@ -141,7 +141,7 @@ h3 {
     border-radius: 50px;
 }
 
-.btn:hover{
+.btn-marie:hover{
     background-color: black;
     color: black;
 }
