@@ -12,6 +12,18 @@ header {
     width: 300px;
 }
 
+.nav {
+    border-bottom: #FFCC00 solid 2px;
+}
+
+h3 {
+    color: #003399;
+    border-top: #FFCC00 solid 2px;
+    text-align: center;
+    font-weight: bold;
+    padding-top : 5px;
+}
+
 .h1templates {
     border: 1px solid;
     height: 150px;
@@ -75,15 +87,15 @@ header {
 }
 
 #blimp {
-    width : 200px;
+    width: 200px;
 }
 
 #planet {
-    width : 200px;
+    width: 200px;
 }
 
 #light {
-    width : 200px;
+    width: 200px;
 }
 
 .nothidden {
@@ -92,10 +104,22 @@ header {
 
 .nothidden:hover {
     color: #003399;
-    font-size : 24px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .nothidden p {
-   text-align: center;
+    text-align: center;
+}
+
+.partenaires {
+    text-align: center;
+}
+
+.lignePartenaires{
+    margin-bottom: 10px;
+}
+
+.partenaires img {
+    width: 200px;
 }
