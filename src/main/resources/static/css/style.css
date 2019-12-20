@@ -79,6 +79,14 @@ h3 {
     background-position: top center;
 }
 
+.imgquestion {
+    background-image: url("/img/questionentete.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 .divimgenvmain {
     background-image: url("/img/hydroandenvmain.jpg");
     height: 1850px;
