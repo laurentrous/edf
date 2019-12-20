@@ -31,7 +31,7 @@
     </form>
 </div>
 <div th:if="${check}">
-    <div th:text="|Bravo votre score est ${score}|"></div>
+    <div class="score" th:text="|Bravo votre score est de : ${score} /5|"></div>
     <div th:include="fragment-script"></div>
 </div>
 </body>

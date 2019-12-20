@@ -141,7 +141,7 @@ h3 {
 
 .text-center:hover {
     border-radius: 0 50px 0 50px;
-    background-color: royalblue;
+    background-color: #9FAEE5 ;
     transform: scale(1);
 
 }
@@ -149,6 +149,11 @@ h3 {
 .title-question {
     display: inline;
     width: 35px;
+}
+
+.score {
+    font-size: 50px;
+    text-align: center;
 }
 
 
