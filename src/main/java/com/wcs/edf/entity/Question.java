@@ -10,6 +10,7 @@ public class Question {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String quest;
+    private Long number;
 
     @OneToMany(mappedBy = "question")
     private List<Answer> answers;
@@ -31,6 +32,14 @@ public class Question {
 
     public void setQuest(String quest) {
         this.quest = quest;
+    }
+
+    public Long getNumber() {
+        return number;
+    }
+
+    public void setNumber(Long number) {
+        this.number = number;
     }
 
     public List<Answer> getAnswers() {

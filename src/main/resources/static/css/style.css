@@ -97,9 +97,65 @@ h3 {
 
 .footer {
     background-color: #003399;
-    color: #FFFFFF;
-    padding: 20px 0px;
+    color : #FFFFFF;
+    padding : 20px 0px;
 }
+
+
+.text-center {
+    width: 60vw;
+    margin: 0 auto;
+
+}
+
+.text-center ul {
+   list-style: none;
+}
+
+.text-center ul li {
+    list-style: none;
+    margin: 5vh 0vh 5vh 0;
+}
+
+.text-center ul li input {
+    display: inline;
+    max-width: 15px;
+}
+
+.text-center ul label {
+    display: inline;
+}
+
+.text-center {
+    border-radius: 35px 0 35px 0;
+    background-color: deepskyblue;
+    color: white;
+    padding: 2vw;
+    width: 45vw;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+.text-center:hover {
+    border-radius: 0 50px 0 50px;
+    background-color: #9FAEE5 ;
+    transform: scale(1);
+
+}
+
+.title-question {
+    display: inline;
+    width: 35px;
+}
+
+.score {
+    font-size: 50px;
+    text-align: center;
+}
+
 
 #blimp {
     width: 200px;
@@ -194,3 +250,4 @@ h3 {
 .partenaires img {
     width: 200px;
 }
+
