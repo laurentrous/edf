@@ -1,12 +1,35 @@
 *, body {
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
     margin: 0;
     padding: 0;
 }
 
+header {
+    background-color: #FFFFFF;
+}
+
 .logo {
     width: 300px;
+}
+
+.nav {
+    border-bottom: #FFCC00 solid 2px;
+}
+
+.active {
+    background-color: #9FAEE5 !important;
+}
+
+.btn-primary {
+    background-color: #9FAEE5 !important;
+}
+
+h3 {
+    color: #003399;
+    border-top: #FFCC00 solid 2px;
+    text-align: center;
+    font-weight: bold;
+    padding-top : 5px;
 }
 
 .h1templates {
@@ -18,20 +41,61 @@
     width: 150px;
 }
 
-.text-marie{
+.text-marie {
     text-align: center;
 }
 
 .divimgindex {
     background-image: url("/img/pageaccueilnew.png");
-    height: 3500px;
+    height: 2200px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
-.footer{
+.divimghydroent {
+    background-image: url("/img/entetehydro.png");
+    height: 580px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimghydromain {
+    background-image: url("/img/hydro.png");
+    margin-top: -1px;
+    height: 2150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimgenventete {
+    background-image: url("/img/entetehydroandenv.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimgenvmain {
+    background-image: url("/img/hydroandenvmain.jpg");
+    height: 1850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.projectimg {
+    background-image: url("/img/projectroute.png");
+    height: 2100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.footer {
     background-color: #003399;
     color : #FFFFFF;
     padding : 20px 0px;
@@ -85,5 +149,100 @@
 .title-question {
     display: inline;
     width: 35px;
+}
+
+
+#blimp {
+    width: 200px;
+}
+
+#planet {
+    width: 200px;
+}
+
+#light {
+    width: 200px;
+}
+
+.nothidden {
+    color: transparent;
+}
+
+.nothidden:hover {
+    color: #003399;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nothidden p {
+    text-align: center;
+}
+
+.imghover {
+    width: 1500px;
+    margin-left: -503px;
+}
+
+.minebtn {
+    margin-top: 123px;
+    margin-left: 1348px;
+    color: black;
+    background-color: black;
+    border: black;
+    border-radius: 50px;
+}
+
+.minebtn:hover{
+    background-color: black;
+    color: black;
+}
+
+/*.ex {
+    visibility: hidden;
+    margin-top: 150px;
+}*/
+
+.enteteproject {
+    background-image: url("/img/enteteproject.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.titre1 {
+    margin-left: 813px;
+    margin-top: -39px;
+    font-size: 30px;
+}
+
+.titre2 {
+    margin-top: 540px;
+    margin-left: 657px;
+    font-size: 30px;
+}
+
+.titre3 {
+    margin-top: 439px;
+    margin-left: 708px;
+    font-size: 30px;
+}
+
+.titre4 {
+    margin-top: 613px;
+    margin-left: 473px;
+    font-size: 30px;
+}
+
+.partenaires {
+    text-align: center;
+}
+
+.lignePartenaires{
+    margin-bottom: 10px;
+}
+
+.partenaires img {
+    width: 200px;
 }
 

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragment-header">
+    <title id="pageTitle">Index</title>
+</head>
+<body>
+<header class="fixed-top">
+    <a href="/index"><img th:src="@{/img/logo.jpg}" class="logo"></a>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="hydrogene">Hydrogène</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="/hydrogene-environnement">Hydrogène et Environnement</a>
+        <a class="flex-sm-fill text-sm-center nav-link active" href="projet">Le projet</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="/articles" tabindex="-1">Articles</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="questionnaire" tabindex="-1">Questionnaire</a>
+    </nav>
+</header>
+<div class="enteteproject"></div>
+<!--<div class="ex">nothing</div>-->
+<main class="projectimg">
+    <button type="button" class="btn & minebtn" data-toggle="modal" data-target="#exampleModal">
+        O
+    </button>
+    <div class="titre1"><b>2016 : La naissance du projet</b></div>
+    <div class="titre2"><b>En pratique</b></div>
+    <div class="titre3"><b>Transition énergétique</b></div>
+    <div class="titre4"><b>2021 : L'aboutissement du projet</b></div>
+</main>
+<div class="container-fluid">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-body">
+                <img class="imghover" src="img/projecthover.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="text-center footer">
+        H2PiyR © 2016 - Avis Juridique - Politique de Protection des Données - Politique de Cookie
+    </div>
+</footer>
+<div th:include="fragment-script"></div>
+</body>
+</html>
