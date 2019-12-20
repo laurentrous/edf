@@ -60,6 +60,7 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
+    margin-bottom : -100px;
 }
 
 .divimghydromain {
@@ -77,6 +78,7 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
+    margin-bottom : -100px;
 }
 
 .imgquestion {
@@ -107,6 +109,7 @@ h3 {
     background-color: #003399;
     color : #FFFFFF;
     padding : 20px 0px;
+    text-align: center;
 }
 
 
@@ -221,6 +224,25 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
+    margin-bottom : -100px;
+}
+
+.enteteblog {
+    background-image: url("/img/blogentête.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom : -100px;
+}
+
+.entetequiz {
+    background-image: url("/img/quizzentête.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom : -100px;
 }
 
 .titre1 {
