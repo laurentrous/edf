@@ -17,6 +17,7 @@ public class Article {
     private String title;
     private String content;
     private String author;
+    private String link;
 
     public Article() {
     }
@@ -59,5 +60,13 @@ public class Article {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 }
