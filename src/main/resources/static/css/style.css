@@ -1,0 +1,125 @@
+*, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 300px;
+}
+
+.nav {
+    border-bottom: #FFCC00 solid 2px;
+}
+
+h3 {
+    color: #003399;
+    border-top: #FFCC00 solid 2px;
+    text-align: center;
+    font-weight: bold;
+    padding-top : 5px;
+}
+
+.h1templates {
+    border: 1px solid;
+    height: 150px;
+}
+
+.mascotte {
+    width: 150px;
+}
+
+.text-marie {
+    text-align: center;
+}
+
+.divimgindex {
+    background-image: url("/img/pageaccueilnew.png");
+    height: 2200px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimghydroent {
+    background-image: url("/img/entetehydro.png");
+    height: 580px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimghydromain {
+    background-image: url("/img/hydro.png");
+    margin-top: -1px;
+    height: 2150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimgenventete {
+    background-image: url("/img/entetehydroandenv.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.divimgenvmain {
+    background-image: url("/img/hydroandenvmain.jpg");
+    height: 1850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+.footer {
+    background-color: #003399;
+    color: #FFFFFF;
+    padding: 20px 0px;
+}
+
+#blimp {
+    width: 200px;
+}
+
+#planet {
+    width: 200px;
+}
+
+#light {
+    width: 200px;
+}
+
+.nothidden {
+    color: transparent;
+}
+
+.nothidden:hover {
+    color: #003399;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nothidden p {
+    text-align: center;
+}
+
+.partenaires {
+    text-align: center;
+}
+
+.lignePartenaires{
+    margin-bottom: 10px;
+}
+
+.partenaires img {
+    width: 200px;
+}

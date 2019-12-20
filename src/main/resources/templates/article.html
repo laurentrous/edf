@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragment-header">
+    <title id="pageTitle">Index</title>
+</head>
+<div>
+    <header class="fixed-top">
+        <img th:src="@{/img/logo.jpg}" class="logo">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="hydrogene">Hydrogène</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="/hydrogene-environnement">Hydrogène et Environnement</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="projet">Le projet</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="fil" tabindex="-1">Fil d'actu</a>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="articles" tabindex="-1">Articles</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="questionnaire" tabindex="-1">Questionnaire</a>
+        </nav>
+    </header>
+    <body style="margin-top:200px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;margin:10px;">
+                    <img th:src="@{/img/article_1.jpg}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lancement d’H2Pyr, l’autoroute de l’hydrogène d’Albi à Saragosse</h5>
+                        <p class="card-text">H2Pyr, le projet qui prépare l’autoroute de l’hydrogène d’Albi à Sarragosse
+                            sera lancé mardi 13 septembre. Rencontre avec Alain Picasso, directeur ...</p>
+                        <a href="http://www.touleco-green.fr/Lancement-d-H2Pyr-l-autoroute-de-l-hydrogene-d-Albi-a-Saragosse,19818"
+                           class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;margin:10px;">
+                    <img th:src="@{/img/article_3.jpg}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">L’HYDROGÈNE, FÉDÉRATEUR DES ÉNERGIES VERTES EN OCCITANIE</h5>
+                        <p class="card-text">L’hydrogène, apparu récemment comme une solution énergétique d’avenir, fait
+                            l’objet d’une intégration accrue dans l’agenda des politiques publiques et de ...</p>
+                        <a href="http://www.afhypac.org/newsletter/67/l-hydrogene-federateur-des-energies-vertes-en-occitanie-122/"
+                           class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;margin:10px;">
+                    <img th:src="@{/img/article_4.jpg}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Le plan H2 voté par la région Occitanie</h5>
+                        <p class="card-text">Annoncé en mai dernier par Carole Delga, le Plan Hydrogène Vert de la
+                            Région Occitanie a été officiellement adopté en assemblée plénière, hier à Montpellier. Il
+                            est doté de 150 M€ sur la période 2019-2030. Ce Plan devrait ...</p>
+                        <a href="https://hydrogentoday.info/news/5420" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="card" style="width: 18rem;margin:10px;">
+                    <img th:src="@{/img/article_2.jpg}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Onet-le-Château, capitale de l’énergie hydrogène</h5>
+                        <p class="card-text">Ce jeudi 11 mai se déroule à Rodez la première journée de l’innovation
+                            sur les technologies hydrogène et ses usages. L’Aveyron se place ainsi en pionnier d’une
+                            énergie qui devrait alimenter très bientôt le quotidien ...</p>
+                        <a href="https://www.media12.fr/onet-le-chateau-capitale-de-lenergie-hydrogene/"
+                           class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text-center footer">
+            H2PiyR © 2016 - Avis Juridique - Politique de Protection des Données - Politique de Cookie
+        </div>
+    </footer>
+    <div th:include="fragment-script"></div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragment-header">
+    <title id="pageTitle">Index</title>
+</head>
+<body>
+<header>
+    <a href="/index"><img th:src="@{/img/logo.jpg}" class="logo"></a>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="hydrogene">Hydrogène</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="/hydrogene-environnement">Hydrogène et Environnement</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="projet">Le projet</a>
+        <a class="flex-sm-fill text-sm-center nav-link active" href="fil" tabindex="-1">Fil d'actu</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="articles" tabindex="-1">Articles</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="questionnaire" tabindex="-1">Questionnaire</a>
+    </nav>
+    <h1>Titre</h1>
+    <p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+</header>
+<div th:include="fragment-script"></div>
+</body>
+</html>
