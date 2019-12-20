@@ -31,8 +31,5 @@ public class controller {
         return "hydrogene";
     }
 
-    @GetMapping("/questionnaire")
-    public String question() {
-        return "questionnaire";
-    }
+
 }
