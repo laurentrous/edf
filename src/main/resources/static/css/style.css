@@ -138,9 +138,17 @@ h3 {
     color: black;
 }
 
-.ex {
+/*.ex {
     visibility: hidden;
     margin-top: 150px;
+}*/
+
+.enteteproject {
+    background-image: url("/img/enteteproject.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .titre1 {
