@@ -7,7 +7,7 @@
 <header class="fixed-top">
     <a href="/index"><img th:src="@{/img/logo.jpg}" class="logo"></a>
     <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link active" href="hydrogene">Hydrogène</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="hydrogene">Hydrogène</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="/hydrogene-environnement">Hydrogène et Environnement</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="projet">Le projet</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="fil" tabindex="-1">Fil d'actu</a>
@@ -15,7 +15,43 @@
         <a class="flex-sm-fill text-sm-center nav-link" href="questionnaire" tabindex="-1">Questionnaire</a>
     </nav>
 </header>
-<main class="divimgindex"></main>
+<main class="divimgindex">
+    <div class="row justify-content-start">
+        <div class="col-2"></div>
+        <div class="col-4 nothidden" style="margin-top:1250px;text-align: center;">
+            <a th:href="@{hydrogene-environnement}"><img th:src="@{img/planet-earth.png}" id="planet"></a>
+            <p>Quel lien entre hydrogène et environnement ?</p>
+        </div>
+        <div class="col-2 nothidden" style="margin-top:1650px;">
+            <a th:href="@{projet}"><img th:src="@{img/lightbulb.png}" id="light"></a>
+            <p>Quel est le projet ?</p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-2 nothidden" style="margin-top:950px;">
+            <a th:href="@{hydrogene}"><img th:src="@{img/blimp.png}" id="blimp"></a>
+            <p> Qu'est-ce que l'hydrogène ?</p>
+        </div>
+    </div>
+</main>
+<div class="row">
+    <div class="col-lg-12">
+        <h3>Les partenaires du projet</h3>
+    </div>
+</div>
+<div class="row align-items-center lignePartenaires">
+    <div class="col-3 partenaires">
+        <img th:src="@{img/part_1.jpg}">
+    </div>
+    <div class="col-3 partenaires">
+        <img th:src="@{img/part_2.jpg}">
+    </div>
+    <div class="col-3 partenaires">
+        <img th:src="@{img/part_3.jpg}">
+    </div>
+    <div class="col-3 partenaires">
+        <img th:src="@{img/part_4.png}">
+    </div>
+</div>
 <footer>
     <div class="text-center footer">
         H2PiyR © 2016 - Avis Juridique - Politique de Protection des Données - Politique de Cookie
