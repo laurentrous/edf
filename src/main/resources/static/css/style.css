@@ -87,6 +87,13 @@ h3 {
     background-position: top center;
 }
 
+.projectimg {
+    background-image: url("/img/projectroute.png");
+    height: 2100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 .footer {
     background-color: #003399;
@@ -118,6 +125,62 @@ h3 {
 
 .nothidden p {
     text-align: center;
+}
+
+.imghover {
+    width: 1500px;
+    margin-left: -503px;
+}
+
+.btn {
+    margin-top: 123px;
+    margin-left: 1318px;
+    color: black;
+    background-color: black;
+    border: black;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: black;
+}
+
+/*.ex {
+    visibility: hidden;
+    margin-top: 150px;
+}*/
+
+.enteteproject {
+    background-image: url("/img/enteteproject.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.titre1 {
+    margin-left: 813px;
+    margin-top: -39px;
+    font-size: 30px;
+}
+
+.titre2 {
+    margin-top: 540px;
+    margin-left: 657px;
+    font-size: 30px;
+}
+
+.titre3 {
+    margin-top: 439px;
+    margin-left: 708px;
+    font-size: 30px;
+}
+
+.titre4 {
+    margin-top: 613px;
+    margin-left: 455px;
+    font-size: 30px;
 }
 
 .partenaires {
