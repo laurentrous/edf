@@ -59,8 +59,4 @@ public class controller {
         return "hydro-environnement";
     }
 
-    @GetMapping("/questionnaire")
-    public String question() {
-        return "questionnaire";
-    }
 }
