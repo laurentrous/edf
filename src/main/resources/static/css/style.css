@@ -16,6 +16,14 @@ header {
     border-bottom: #FFCC00 solid 2px;
 }
 
+.active {
+    background-color: #9FAEE5 !important;
+}
+
+.btn-primary {
+    background-color: #9FAEE5 !important;
+}
+
 h3 {
     color: #003399;
     border-top: #FFCC00 solid 2px;
@@ -133,7 +141,7 @@ h3 {
     border-radius: 50px;
 }
 
-.btn:hover{
+.minebtn:hover{
     background-color: black;
     color: black;
 }
