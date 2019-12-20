@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header{
+header {
     background-color: #FFFFFF;
 }
 
@@ -21,13 +21,13 @@ header{
     width: 150px;
 }
 
-.text-marie{
+.text-marie {
     text-align: center;
 }
 
 .divimgindex {
     background-image: url("/img/pageaccueilnew.png");
-    height: 3500px;
+    height: 2200px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ header{
 
 .divimghydromain {
     background-image: url("/img/hydro.png");
-    margin-top:-1px;
+    margin-top: -1px;
     height: 2150px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -68,8 +68,34 @@ header{
 }
 
 
-.footer{
+.footer {
     background-color: #003399;
-    color : #FFFFFF;
-    padding : 20px 0px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+}
+
+#blimp {
+    width : 200px;
+}
+
+#planet {
+    width : 200px;
+}
+
+#light {
+    width : 200px;
+}
+
+.nothidden {
+    color: transparent;
+}
+
+.nothidden:hover {
+    color: #003399;
+    font-size : 24px;
+    font-weight: bold;
+}
+
+.nothidden p {
+   text-align: center;
 }
